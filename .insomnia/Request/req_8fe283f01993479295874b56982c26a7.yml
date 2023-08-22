@@ -1,0 +1,39 @@
+_id: req_8fe283f01993479295874b56982c26a7
+type: Request
+parentId: fld_7ff39d314d2748209e723397c535eb96
+modified: 1673308453771
+created: 1673308453771
+url: https://api.clerk.io/v2/search/popular
+name: popular
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{ _.public_key }}"
+    id: pair_54649642d8e84990b6ccda3b30d03066
+  - name: limit
+    value: "10"
+    id: pair_ae3917e0d0e249adbb5f70f7e696302e
+  - name: visitor
+    value: auto
+    id: pair_337940381d3f42db8f3cc1d5106f1700
+  - name: language
+    value: english
+    id: pair_e015dff06b894452bbc573e3caad8839
+    disabled: false
+  - id: pair_e4693a9ab0654e82836faa96ccd24af1
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304764179.1562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,13 @@
+_id: fld_4f27afb099644f8c869e9fb6cb1415f2
+type: RequestGroup
+parentId: wrk_b0a6d428765f41418e13f2466cfd25f1
+modified: 1673308453723
+created: 1673308453723
+name: Magento 1
+description: ""
+environment:
+  route: /clerk/api/
+environmentPropertyOrder:
+  "&":
+    - route
+metaSortKey: -1668703742154

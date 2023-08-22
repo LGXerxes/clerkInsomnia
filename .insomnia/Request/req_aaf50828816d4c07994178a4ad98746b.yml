@@ -1,0 +1,29 @@
+_id: req_aaf50828816d4c07994178a4ad98746b
+type: Request
+parentId: fld_b3bca4e7439a4aac89d164238cdb04ba
+modified: 1673308453699
+created: 1673308453699
+url: "{{ _.domain }}{{ _.route }}page"
+name: /page
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+  - name: key
+    value: "{{ _.public_key }}"
+  - name: private_key
+    value: "{{ _.private_key }}"
+headers: []
+authentication: {}
+metaSortKey: -1668169516663.0781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

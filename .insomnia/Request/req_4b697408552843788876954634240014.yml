@@ -1,0 +1,36 @@
+_id: req_4b697408552843788876954634240014
+type: Request
+parentId: fld_c1fee8d654c84259a1d9a9b1cc696f2e
+modified: 1687513277119
+created: 1673308453758
+url: https://api.clerk.io/v2/orders
+name: orders
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: orders
+    value: '["16963056_649174a3c9daf123"]'
+    description: Array of ID's
+    type: text
+    multiline: false
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1668614450487.5156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_5f868c6e334e466f91c6a5ccafccb1da
+type: Request
+parentId: fld_06717ef5ea814656b136d2747b7fb467
+modified: 1673308453767
+created: 1673308453767
+url: https://api.clerk.io/v2/privacy/forget
+name: forget
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_5bb303764eff462da1ac07442e9b6870
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_e10aef25b9df4669a4b6820d5430c9a1
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_ad334a8338df4310a9a16c9ef4339de9
+    name: email
+    value: luke@rebels.org
+    description: ""
+    disabled: false
+  - id: pair_ceb3209e696a408f9ce0bd3ce8e6605b
+    name: customer
+    value: "135"
+    description: ""
+    disabled: false
+  - id: pair_6d018a57a9224cfba0e8b8ec1769b815
+    name: visitor
+    value: viRCBP2M
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1673303053097.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

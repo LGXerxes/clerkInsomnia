@@ -1,0 +1,29 @@
+_id: req_f92c9c06d29a4743ba8839aabbc1ec73
+type: Request
+parentId: fld_b1a49e28757c43b5813e8a012ece2887
+modified: 1673308453715
+created: 1673308453715
+url: "{{ _.domain }}{{ _.route }}product"
+name: /product
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+  - name: key
+    value: "{{ _.public_key }}"
+  - name: private_key
+    value: "{{ _.private_key }}"
+headers: []
+authentication: {}
+metaSortKey: -1668704368300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

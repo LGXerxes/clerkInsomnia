@@ -1,0 +1,47 @@
+_id: req_32cdb82f10f341e6b98f731adea178a1
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1673308453778
+created: 1673308453778
+url: https://api.clerk.io/v2/recommendations/category/popular_subcategories
+name: category/popular_subcategories
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_62aad46a65204924bd39d9811f260c93
+  - name: category
+    value: "25"
+    id: pair_8837547ef2e8401d97ef23308aba6efd
+  - name: limit
+    value: "10"
+    id: pair_348dc345b97747ae973dd2abdf966a2e
+  - name: visitor
+    value: auto
+    id: pair_86c7e59c4281474683ed0d60bc5fab6c
+  - id: pair_dcd2b1d163ea493e8c11211961fe9121
+    name: offset
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_3b59862535ab4e309bf00358d29c6f64
+    name: order
+    value: desc
+    description: ""
+  - id: pair_b33536630eb146ef89a86bcf0b0ebdbe
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794039.415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

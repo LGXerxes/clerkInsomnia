@@ -1,0 +1,84 @@
+_id: req_988ebf73f46b4ffa938f5332241a41e2
+type: Request
+parentId: fld_7ff39d314d2748209e723397c535eb96
+modified: 1687946363673
+created: 1673308453769
+url: https://api.clerk.io/v2/search/predictive
+name: predictive
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b20c95d6345943c49dcab60f528e5e20
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_5643fbd7e0fd4bec9dfc6bdbc6c1f543
+    name: query
+    value: defaultvariationcontent
+    description: ""
+  - id: pair_99b4be8437164575962b1e01dee4fc9b
+    name: limit
+    value: "20"
+    description: ""
+    disabled: false
+  - id: pair_61ae897cf97b4ae48df1d17c6594a13c
+    name: visitor
+    value: auto
+    description: ""
+    disabled: true
+  - id: pair_16393cf6b3344e25869a1b63960cf000
+    name: labels
+    value: '["live-search"]'
+    description: ""
+    disabled: true
+  - id: pair_a9e243d0135445bcafd8725f3f5d4f08
+    name: facets
+    value: '["price"]'
+    description: ""
+    disabled: true
+  - id: pair_2b7585a8d6bd4454b450b5b9e1549819
+    name: filter
+    value: price >10
+    description: ""
+    disabled: true
+  - id: pair_14207795653445e7bef2805cc2b17ef8
+    name: exclude
+    value: '["261"]'
+    description: ""
+    disabled: true
+  - id: pair_baad5f2b229c47a7bafd0e65e0ab7bf2
+    name: orderby
+    value: name
+    description: ""
+    disabled: true
+  - id: pair_659bc886449447109fc7e9007ff5c33f
+    name: language
+    value: english
+    description: ""
+    disabled: true
+  - id: pair_178452a1b28e468d803fab8d45a4ab53
+    name: attributes
+    value: '["name"]'
+    description: ""
+    disabled: false
+  - id: pair_18923fe75a464e9588a69a344fc040dd
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+  - id: pair_eb88edde27814c8db4b9629fa4591928
+    name: order
+    value: asc
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304828156.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

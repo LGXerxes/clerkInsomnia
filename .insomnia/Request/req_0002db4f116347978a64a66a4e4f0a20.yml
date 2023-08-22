@@ -1,0 +1,42 @@
+_id: req_0002db4f116347978a64a66a4e4f0a20
+type: Request
+parentId: fld_c1fee8d654c84259a1d9a9b1cc696f2e
+modified: 1687513014563
+created: 1673308453759
+url: https://api.clerk.io/v2/orders
+name: orders
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+    		"orders": [
+    		{
+    			"id": "16963056_649174a3c9daf123",
+    			"customer":"123123",
+    			"email": "amo@clerk.io",
+    			"time": 1687254434,
+    			"products": [
+    				{
+    					"id": "27328954",
+    					"quantity": 1,
+    					"price": 59.9
+    				}
+    			]}]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668614450437.5156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

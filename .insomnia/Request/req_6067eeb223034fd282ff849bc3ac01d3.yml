@@ -1,0 +1,48 @@
+_id: req_6067eeb223034fd282ff849bc3ac01d3
+type: Request
+parentId: fld_7ff39d314d2748209e723397c535eb96
+modified: 1684224967712
+created: 1673308453770
+url: https://api.clerk.io/v2/search/categories
+name: categories
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b20c95d6345943c49dcab60f528e5e20
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_5643fbd7e0fd4bec9dfc6bdbc6c1f543
+    name: query
+    value: THEMATIC_CHARTS
+    description: ""
+  - id: pair_99b4be8437164575962b1e01dee4fc9b
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_61ae897cf97b4ae48df1d17c6594a13c
+    name: visitor
+    value: auto
+    description: ""
+    disabled: true
+  - id: pair_659bc886449447109fc7e9007ff5c33f
+    name: language
+    value: english
+    description: ""
+    disabled: true
+  - id: pair_18923fe75a464e9588a69a344fc040dd
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304776974.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

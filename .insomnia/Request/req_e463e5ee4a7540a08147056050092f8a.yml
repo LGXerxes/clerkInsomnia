@@ -1,0 +1,68 @@
+_id: req_e463e5ee4a7540a08147056050092f8a
+type: Request
+parentId: fld_338731d8f6794f4da8414017803a9717
+modified: 1687786123141
+created: 1673308453702
+url: "{{ _.domain }}{{ _.route }}product"
+name: /product
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {"key": "{{ _.public_key }}",
+    "private_key": "{{ _.private_key }}"}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+    id: pair_40b91e6526274910810caadd9430f8af
+    disabled: true
+  - name: limit
+    value: "{{ _.limit }}"
+    id: pair_e2db3313050b4af2825283e3662afa81
+    disabled: true
+  - name: key
+    value: "{{ _.public_key }}"
+    id: pair_6f618f17beb4444795ba9946422c0dcf
+    disabled: false
+  - name: private_key
+    value: "{{ _.private_key }}"
+    id: pair_5e3b465dd2cc438ca9bca63c87995e0c
+    disabled: false
+  - id: pair_0d7ed803c32b41d3b01d678d9b5ff0ed
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_d6df320551ba452b8cd6427f1d533c26
+    name: limit
+    value: "2"
+    description: ""
+    disabled: false
+  - id: pair_1c702dcce36548a59008c70f9df6af45
+    name: key
+    value: "1234"
+    description: ""
+    disabled: true
+  - id: pair_94f955d7463b4475bee41f384270be09
+    name: private_key
+    value: "67890"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: apikey
+  disabled: true
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1668431615274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

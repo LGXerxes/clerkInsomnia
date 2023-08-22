@@ -1,0 +1,46 @@
+_id: req_fd72a55eb80b43c2b791cdc4eba08c57
+type: Request
+parentId: fld_50a6e5036a0c44019c95cf8e3de2e340
+modified: 1680267974744
+created: 1673308453762
+url: https://api.clerk.io/v2/subscriber/unsubscribe
+name: unsubscribe
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: email
+    value: p+sweetseeds@feeleas.org
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: list_id
+    value: ""
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+  - id: pair_b991fc1c3165498586c44ea7bc4011ab
+    name: redirect
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_312f7e2c42a54a47b2e411479851e87d
+    name: redirect_url
+    value: my.clerk.io
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1668618702371.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

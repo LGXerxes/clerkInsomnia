@@ -1,0 +1,47 @@
+_id: req_0f82e2fd6da34af3827eea32d0b34955
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1673308453783
+created: 1673308453783
+url: https://api.clerk.io/v2/recommendations/page/category
+name: page/category
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_5bba2e543f8742eea9a09d11c77025be
+  - name: category
+    value: "25"
+    id: pair_81726cec54c748d8b474d79d801a8ef0
+  - name: limit
+    value: "10"
+    id: pair_c0a91c5e0d944c21b0683ca0a18b1a83
+  - name: visitor
+    value: auto
+    id: pair_5729fd4b7b964e3ba0394f4edf97d081
+  - name: labels
+    value: '["live-search"]'
+    id: pair_f9a307c0001544a1b87f49b24b13be3d
+  - name: attributes
+    value: '["brand"]'
+    id: pair_de686341de694d96b20769e5eac0610f
+  - name: callback
+    value: test
+    id: pair_bfe8b54886054ef48d07de737321c1e4
+    disabled: true
+  - id: pair_af302c29c40c49518a7e4028aa264586
+    name: type
+    value: cms
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1673304794035.258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

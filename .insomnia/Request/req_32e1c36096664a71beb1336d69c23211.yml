@@ -1,0 +1,29 @@
+_id: req_32e1c36096664a71beb1336d69c23211
+type: Request
+parentId: fld_b1a49e28757c43b5813e8a012ece2887
+modified: 1673308453717
+created: 1673308453717
+url: "{{ _.domain }}{{ _.route }}product"
+name: /product
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+  - name: key
+    value: "{{ _.public_key }}"
+  - name: private_key
+    value: "{{ _.private_key }}"
+headers: []
+authentication: {}
+metaSortKey: -1668431615274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

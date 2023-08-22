@@ -1,0 +1,29 @@
+_id: req_f33ca80ba5684951bdc8ae6419db05e9
+type: Request
+parentId: fld_e6e7a4e4ce2440ecb16a78375941f17d
+modified: 1681743004145
+created: 1681742979620
+url: https://api.clerk.io/v2/page/list
+name: pagelist
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668618702349.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

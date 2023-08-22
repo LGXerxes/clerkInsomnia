@@ -1,0 +1,29 @@
+_id: req_8706c09d1a1e4fa59462c62d8763bed5
+type: Request
+parentId: fld_338731d8f6794f4da8414017803a9717
+modified: 1673308453706
+created: 1673308453706
+url: "{{ _.domain }}{{ _.route }}order"
+name: /order
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+  - name: key
+    value: "{{ _.public_key }}"
+  - name: private_key
+    value: "{{ _.private_key }}"
+headers: []
+authentication: {}
+metaSortKey: -1668167385780.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

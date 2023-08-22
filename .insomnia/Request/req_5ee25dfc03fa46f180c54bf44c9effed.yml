@@ -1,0 +1,47 @@
+_id: req_5ee25dfc03fa46f180c54bf44c9effed
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1673308453774
+created: 1673308453774
+url: https://api.clerk.io/v2/recommendations/recently_bought
+name: recently_bought
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_35014c45d80e418293a15402d374e393
+  - name: visitor
+    value: auto
+    id: pair_d433fedf7ef747b38dd26a6e45c02c2a
+  - name: labels
+    value: '["live-search"]'
+    id: pair_78d1ec15b9f24da2b53f5abfe165bf5e
+  - name: limit
+    value: "10"
+    id: pair_97992069b45e47b99309564f227caeb4
+  - name: filter
+    value: '"price>10"'
+    id: pair_0c37e325ee2140188a3ec65379cc2bbd
+  - name: exclude
+    value: '["261"]'
+    id: pair_c9c0cfa758ec42d498cb4141fbf1334e
+  - name: attributes
+    value: '["brand"]'
+    id: pair_2ec8ceb0863b48f68b59f133ee64c3d5
+  - id: pair_8de84ddb37524d889cbd7bff2f8929bb
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304795101.539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_8cd2a0ab6c854c8881c3ebb474087006
+type: Request
+parentId: fld_b3bca4e7439a4aac89d164238cdb04ba
+modified: 1673308453687
+created: 1673308453687
+url: "{{ _.domain }}{{ _.route }}category"
+name: /category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"key": "{{ _.public_key }}",
+    "private_key": "{{ _.private_key }}"}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668192956376.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

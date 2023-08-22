@@ -1,0 +1,49 @@
+_id: req_85c128dad3524b0d9459ffbaaa6b9ae6
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1673308453780
+created: 1673308453780
+url: https://api.clerk.io/v2/recommendations/visitor/complementary
+name: visitor/complementary
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_ce2b92ad7bec4ad6b64d0162f311b5c1
+  - name: limit
+    value: "10"
+    id: pair_c84ca1decb0c49f7b2f254fc60cbfd83
+  - name: visitor
+    value: auto
+    id: pair_dcbed57563244e9db3329c53c88872a2
+  - name: labels
+    value: '["live-search"]'
+    id: pair_8f92637ca28b47eba04575e8066bc459
+  - name: email
+    value: luke@rebels.org
+    id: pair_3ec8b1ec96ee42b68b9d949f8617ccfb
+  - name: filter
+    value: price>10
+    id: pair_9668a5b2b99c497d9edeb3cee72a926f
+  - name: exclude
+    value: '["1"]'
+    id: pair_abf878cddabe4947b529967eaa414eae
+  - name: attributes
+    value: '["brand"]'
+    id: pair_0036711b60f84875b46897334fddac59
+  - name: callback
+    value: test
+    id: pair_e38c0bba5d22450fb0aef7f25422bcab
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794036.2913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

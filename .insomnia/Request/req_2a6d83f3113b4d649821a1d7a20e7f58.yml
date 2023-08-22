@@ -1,0 +1,90 @@
+_id: req_2a6d83f3113b4d649821a1d7a20e7f58
+type: Request
+parentId: fld_cef10e32cf0c4ed88a12ceab5b3c4d42
+modified: 1687512587149
+created: 1687512397095
+url: https://api.clerk.io/v2/product/add
+name: productsold
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+    	  "products": [
+            {
+                "id": "37042",
+                "name": "Cable-through with brush 60 mm whiteeee",
+                "description": "#html-body [data-pb-style=UWFJ9GT]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}Test description",
+                "price": 0,
+                "list_price": 0,
+                "image": "https:\/\/aurdel.1902dev1.com\/media\/catalog\/product\/placeholder\/default\/no-image_1.png",
+                "url": "https:\/\/aurdel.1902dev1.com\/no\/no\/429-ks66w",
+                "categories": [
+                    "229",
+                    "288",
+                    "289",
+                    "302",
+                    "333",
+                    "335"
+                ],
+                "manufacturer": false,
+                "sku": "429-KS66W",
+                "age": 168,
+                "created_at": 1672990109,
+                "on_sale": false,
+                "stock": 0,
+                "product_type": "simple",
+                "tier_price_values": [],
+                "tier_price_quantities": [],
+                "child_stocks": [],
+                "brand_ref": "",
+                "barcode": ""
+            }
+        ]
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+    disabled: true
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+    disabled: true
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: products
+    value: '[        {            "id": "37042",            "name": "Cable-through
+      with brush 60 mm whiteeee",            "description": "#html-body
+      [data-pb-style=UWFJ9GT]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left
+      top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}Test
+      description",            "price": 0,            "list_price":
+      0,            "image":
+      "https:\/\/aurdel.1902dev1.com\/media\/catalog\/product\/placeholder\/default\/no-image_1.png",            "url":
+      "https:\/\/aurdel.1902dev1.com\/no\/no\/429-ks66w",            "categories":
+      [                "229",                "288",                "289",                "302",                "333",                "335"            ],            "manufacturer":
+      false,            "sku": "429-KS66W",            "age":
+      168,            "created_at": 1672990109,            "on_sale":
+      false,            "stock": 0,            "product_type":
+      "simple",            "tier_price_values":
+      [],            "tier_price_quantities": [],            "child_stocks":
+      [],            "brand_ref": "",            "barcode": ""        }    ]'
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668652718262.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

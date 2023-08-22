@@ -1,0 +1,51 @@
+_id: req_a7935d22599242c190b544bb2363ba36
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1681743646394
+created: 1673308453782
+url: https://api.clerk.io/v2/recommendations/page/substituting
+name: page/substituting
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_4b6df1d3f27040e694137dac05e91f18
+  - name: page
+    value: c-12
+    id: pair_f00c0e719e8e4a8884c725a12b56b127
+  - name: limit
+    value: "10"
+    id: pair_891f7b8e799e4e7290f195e44c97790a
+  - name: visitor
+    value: auto
+    id: pair_0848fd7b4a65423aa85ec05fd4b06af9
+    disabled: true
+  - name: labels
+    value: '["live-search"]'
+    id: pair_3e5d9b0153904e5988801d622f8d05e9
+    disabled: true
+  - name: type
+    value: Category Page
+    id: pair_e91b0b579e1e4990a60e00ef740cd3aa
+    disabled: true
+  - name: attributes
+    value: '["text"]'
+    id: pair_1e060f1da9a047fda1fa3c8d2edb63a3
+    disabled: true
+  - id: pair_8d77a4b823ba4ee7abefd11788e99979
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794035.2825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

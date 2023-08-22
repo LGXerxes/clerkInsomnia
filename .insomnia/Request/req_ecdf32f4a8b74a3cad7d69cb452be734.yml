@@ -1,0 +1,77 @@
+_id: req_ecdf32f4a8b74a3cad7d69cb452be734
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1687506025594
+created: 1673308453777
+url: https://api.clerk.io/v2/recommendations/category/popular
+name: category/popular
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_62aad46a65204924bd39d9811f260c93
+  - name: category
+    value: '"35"'
+    id: pair_8837547ef2e8401d97ef23308aba6efd
+  - name: limit
+    value: "50"
+    id: pair_348dc345b97747ae973dd2abdf966a2e
+  - name: visitor
+    value: auto
+    id: pair_86c7e59c4281474683ed0d60bc5fab6c
+    disabled: true
+  - name: labels
+    value: '["live-search"]'
+    id: pair_e0c7650ee2b14637a35d1a66bb7eaf5b
+    disabled: true
+  - name: offset
+    value: "0"
+    id: pair_1e88f62520384038bdd8276617c232b5
+    disabled: true
+  - name: filter
+    value: '"kleur contains Wit and kleur contains not Geel and kleur contains not
+      Lichtgrijs"'
+    id: pair_4a4914bd1ed24cbdafc762e04465b3d5
+    disabled: false
+  - name: exclude
+    value: '["261"]'
+    id: pair_3eca34bb44804def96e28700db453829
+    disabled: true
+  - name: facets
+    value: '["kleur"]'
+    id: pair_3e72dcb7e4d9408dbcf0accf57ce7e89
+    disabled: false
+  - name: orderby
+    value: price
+    id: pair_da12549f72d547a99ed3b0454a452b04
+    disabled: true
+  - name: order
+    value: asc
+    id: pair_be02fff3cbf141129540af7c506cf424
+    disabled: true
+  - name: attributes
+    value: '["kleur"]'
+    id: pair_ff486238f0014444a7588efd1b3ae1ff
+    disabled: false
+  - id: pair_3fea29c1b8a447b090407fe2ad5d8e4d
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+  - id: pair_7c3ad738f6174aff950f91ceeb611375
+    name: facets-titles
+    value: '["price":"test"]'
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794068.5715
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

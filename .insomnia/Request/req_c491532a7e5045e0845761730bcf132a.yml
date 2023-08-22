@@ -1,0 +1,95 @@
+_id: req_c491532a7e5045e0845761730bcf132a
+type: Request
+parentId: fld_b3bca4e7439a4aac89d164238cdb04ba
+modified: 1685012152969
+created: 1673308453696
+url: "{{ _.domain }}{{ _.route }}setconfig"
+name: /setconfig
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {"key": "{{ _.public_key }}",
+
+    "private_key": "{{ _.private_key }}",
+    	"lang": "auto",
+    	"import_url": "https:\/\/debestelbox.nl",
+    	"customer_sync_enabled": "1",
+    	"customer_sync_customer_fields": "brand,color,inhoud,size,aantal-personen",
+    	"include_pages": "1",
+    	"page_additional_fields": "",
+    	"outofstock_products": "1",
+    	"collect_emails": "1",
+    	"collect_emails_signup_message": "",
+    	"collect_baskets": "1",
+    	"additional_fields": "",
+    	"data_sync_image_size": "medium_large",
+    	"livesearch_enabled": "1",
+    	"livesearch_suggestions": "4",
+    	"livesearch_include_categories": "1",
+    	"livesearch_categories": "4",
+    	"livesearch_pages": "4",
+    	"livesearch_pages_type": "All",
+    	"livesearch_dropdown_position": "Center",
+    	"livesearch_field_selector": ".search-field",
+    	"livesearch_form_selector": ".woocommerce-product-search",
+    	"livesearch_template": "live-search",
+    	"search_enabled": "1",
+    	"search_page": "53625",
+    	"search_include_categories": "1",
+    	"search_categories": "5",
+    	"search_pages": "5",
+    	"search_pages_type": "All",
+    	"search_template": "search-page",
+    	"search_no_results_text": "",
+    	"search_load_more_button": "",
+    	"faceted_navigation_enabled": "1",
+    	"faceted_navigation": "[{\"attribute\":\"status\",\"title\":\"\",\"position\":\"1\",\"checked\":false},{\"attribute\":\"message\",\"title\":\"\",\"position\":\"2\",\"checked\":false},{\"attribute\":\"created_at\",\"title\":\"\",\"position\":\"1\",\"checked\":false},{\"attribute\":\"on_sale\",\"title\":\"\",\"position\":\"2\",\"checked\":false},{\"attribute\":\"all_images\",\"title\":\"\",\"position\":\"3\",\"checked\":false},{\"attribute\":\"price\",\"title\":\"Prijs\",\"position\":\"4\",\"checked\":true},{\"attribute\":\"categories\",\"title\":\"Categorie\",\"position\":\"5\",\"checked\":true},{\"attribute\":\"stock\",\"title\":\"\",\"position\":\"6\",\"checked\":false},{\"attribute\":\"short_description\",\"title\":\"\",\"position\":\"1\",\"checked\":false}]",
+    	"faceted_navigation_design": "148949",
+    	"powerstep_type": "popup",
+    	"powerstep_page": "29466",
+    	"powerstep_templates": "power-step-others-also-bought,power-step-visitor-complementary,power-step-popular,power-step-popular-on-sale",
+    	"exit_intent_template": "exit_intent",
+    	"category_content": "category-page-popular",
+    	"clerk_category_shortcode": "[clerk_category_id]",
+    	"product_enabled": "1",
+    	"product_content": "product-page-alternatives,product-page-others-also-bought",
+    	"clerk_product_shortcode": "[clerk_product_id]",
+    	"cart_content": "cart-others-also-bought",
+    	"clerk_cart_shortcode": "[clerk_cart_ids]",
+    	"log_level": "Error + Warn",
+    	"log_to": "my.clerk.io",
+    	"realtime_updates": "0",
+    	"page_additional_types": "0",
+    	"disable_order_synchronization": "0",
+    	"livesearch_include_suggestions": "0",
+    	"livesearch_include_pages": "0",
+    	"search_include_pages": "0",
+    	"powerstep_enabled": "0",
+    	"powerstep_excl_duplicates": "0",
+    	"exit_intent_enabled": "0",
+    	"category_enabled": "0",
+    	"category_excl_duplicates": "0",
+    	"product_excl_duplicates": "0",
+    	"cart_enabled": "0",
+    	"cart_excl_duplicates": "0",
+    	"log_enabled": "0"
+    }
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668158995428.1885
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

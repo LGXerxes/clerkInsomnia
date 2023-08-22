@@ -1,0 +1,55 @@
+_id: req_e55bc38b150a408fbaf7a93b443647a2
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1684313393710
+created: 1673308453776
+url: https://api.clerk.io/v2/recommendations/substituting
+name: substituting
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_915d55ddc07f4a9f87a26925479361e3
+  - name: products
+    value: '["01140960"]'
+    id: pair_a650083fa99342058bf6f7c47c416766
+  - name: limit
+    value: "20"
+    id: pair_59de7544daa64f90a049ca6c3be39511
+  - name: visitor
+    value: auto
+    id: pair_539121add65d433bb01749ba8093502d
+    disabled: true
+  - name: labels
+    value: '["live-search"]'
+    id: pair_7573b96ecf3e48429351966a7c457058
+    disabled: true
+  - name: filter
+    value: categories contains CHARTS
+    id: pair_b37b25d02c8e45639f6240eb349da9be
+    disabled: false
+  - name: exclude
+    value: '["261"]'
+    id: pair_3a8b1ca880104dbe9b187c76bb4b58d2
+    disabled: true
+  - name: attributes
+    value: '["name"]'
+    id: pair_c7248d5db02443f38243bd6c6dca306b
+    disabled: true
+  - id: pair_b9b8787d4acd4425a9bf470d980a5213
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794168.5361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

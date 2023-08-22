@@ -1,0 +1,52 @@
+_id: req_15db2831b7024ebbb3ee7374a7ad933b
+type: Request
+parentId: fld_fc990a0fcec6468fa31139ee6bff8fc7
+modified: 1673308453751
+created: 1673308453751
+url: https://api.clerk.io/v2/categories
+name: categories
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "categories": [
+            {
+                "id": 1,
+                "name": "Imperial Goods",
+                "subcategories": [
+                    42,
+                    25
+                ],
+                "url": "https://galactic-empire-merch.com/imperial-goods"
+            },
+            {
+                "id": 42,
+                "name": "Tatooine",
+                "subcategories": [],
+                "url": "https://galactic-empire-merch.com/imperial-goods/tatooine"
+            },
+            {
+                "id": 25,
+                "name": "Coruscant",
+                "subcategories": [],
+                "url": "https://galactic-empire-merch.com/imperial-goods/coruscant"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668584686573.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

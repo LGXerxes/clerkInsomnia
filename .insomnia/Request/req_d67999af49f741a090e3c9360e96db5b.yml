@@ -1,0 +1,52 @@
+_id: req_d67999af49f741a090e3c9360e96db5b
+type: Request
+parentId: fld_bc1ce95b507d487eaa6e980e8b8292b4
+modified: 1687513249542
+created: 1673308453763
+url: https://api.clerk.io/v2/log/sale
+name: sale
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: sale
+    value: 16963056_649174a3c9daf123
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: products
+    value: |
+      [{
+      	"id":"27328954",
+      	"price":59.9,
+      	"quantity":1
+      }]
+    description: ID or Products
+    type: text
+    multiline: true
+  - id: pair_b991fc1c3165498586c44ea7bc4011ab
+    name: visitor
+    value: auto
+    description: ""
+  - id: pair_312f7e2c42a54a47b2e411479851e87d
+    name: customer
+    value: "135"
+    description: ""
+  - id: pair_0fae739d5dc44d958e23396261150457
+    name: email
+    value: amo@clerk.io
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1668618702372.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

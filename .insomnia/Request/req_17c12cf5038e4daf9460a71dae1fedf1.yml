@@ -1,0 +1,39 @@
+_id: req_17c12cf5038e4daf9460a71dae1fedf1
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1673308453773
+created: 1673308453773
+url: https://api.clerk.io/v2/recommendations/trending
+name: trending
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+  - name: limit
+    value: "10"
+  - name: visitor
+    value: auto
+  - name: labels
+    value: '["live-search" ]'
+  - name: offset
+    value: "0"
+  - name: filter
+    value: price >10
+  - name: exclude
+    value: '["261"]'
+  - name: facets
+    value: '["price"]'
+  - name: attributes
+    value: '["brand"]'
+headers: []
+authentication: {}
+metaSortKey: -1673304802565.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

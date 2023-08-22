@@ -1,0 +1,27 @@
+_id: req_2c753a2ab6ac45c4a82e64c3b0bd59e2
+type: Request
+parentId: fld_704d18bf4ff44c3494addcb1e11ea410
+modified: 1684149677861
+created: 1675862764529
+url: "
+  https://metalworker.com/wp-content/uploads/2021/11/Cuffie-antirumore-Peltor-O\
+  ptime-Modello-1.jpg "
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ad3b62faa31e4bcdb6fae7046a8a86e2
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1675861250019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

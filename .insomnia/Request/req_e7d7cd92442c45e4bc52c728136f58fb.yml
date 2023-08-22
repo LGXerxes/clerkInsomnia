@@ -1,0 +1,50 @@
+_id: req_e7d7cd92442c45e4bc52c728136f58fb
+type: Request
+parentId: fld_e6e7a4e4ce2440ecb16a78375941f17d
+modified: 1673308453753
+created: 1673308453753
+url: https://api.clerk.io/v2/pages
+name: pages
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "pages": [
+            {
+                "id": 135,
+                "type": "cms",
+                "url": "https://galactic-empire-merch.com/imperial-goods/tatooine",
+                "title": "Open Hours",
+                "text": "The main text about our opening hours..."
+            },
+            {
+                "id": 1354,
+                "type": "blog",
+                "url": "https://galactic-empire-merch.com/imperial-goods/tatooine",
+                "title": "New Blog Post",
+                "text": "The main text about our opening hours...",
+                "keywords": [
+                    "blog",
+                    "post",
+                    "new"
+                ]
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668610198431.9688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

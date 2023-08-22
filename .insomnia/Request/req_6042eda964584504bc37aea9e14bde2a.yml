@@ -1,0 +1,46 @@
+_id: req_6042eda964584504bc37aea9e14bde2a
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1681740679068
+created: 1673308453784
+url: https://api.clerk.io/v2/recommendations/page/related_products
+name: page/related_products
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_5bba2e543f8742eea9a09d11c77025be
+  - name: page
+    value: t-c-855
+    id: pair_81726cec54c748d8b474d79d801a8ef0
+  - name: limit
+    value: "10"
+    id: pair_c0a91c5e0d944c21b0683ca0a18b1a83
+  - name: visitor
+    value: auto
+    id: pair_5729fd4b7b964e3ba0394f4edf97d081
+    disabled: true
+  - name: labels
+    value: '["live-search"]'
+    id: pair_f9a307c0001544a1b87f49b24b13be3d
+    disabled: true
+  - name: attributes
+    value: '["brand"]'
+    id: pair_de686341de694d96b20769e5eac0610f
+    disabled: true
+  - name: callback
+    value: test
+    id: pair_bfe8b54886054ef48d07de737321c1e4
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794035.254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_11e447e006ee49539dba21d87a0a510c
+type: Request
+parentId: fld_cef10e32cf0c4ed88a12ceab5b3c4d42
+modified: 1675437191576
+created: 1673308453748
+url: https://api.clerk.io/v2/products
+name: products
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: products
+    value: "[1,2,3,4,5]"
+    description: Array of ID's
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: -1668499646912.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

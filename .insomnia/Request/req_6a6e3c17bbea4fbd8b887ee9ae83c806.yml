@@ -1,0 +1,46 @@
+_id: req_6a6e3c17bbea4fbd8b887ee9ae83c806
+type: Request
+parentId: fld_01f18218de0d4df4ba5715a77d002936
+modified: 1673308453787
+created: 1673308453787
+url: https://api.clerk.io/v2/campaigns/embed
+name: campaigns/embed
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_198a57fea82e4c7fa07a9dc7d8ad0fb6
+  - name: email
+    value: luke@rebels.org
+    id: pair_3df0b1a8933f43c2af53c71fa9a54269
+  - name: embed
+    value: test
+    id: pair_f3e800d8e076450998cd190da555e246
+    description: content label
+  - name: n
+    value: "0"
+    id: pair_16e68e47a2f64625b30e94a6069e61c9
+  - name: v
+    value: asdfkljh123
+    id: pair_03d32b7f36524b2bbcd7f86da51d4ad4
+  - name: append
+    value: testing
+    id: pair_54991030ea50470e982b77f7602901b1
+  - name: prepend
+    value: finised
+    id: pair_7122a0136f6e4ed3a208c63fe0a5dcf5
+  - name: filter
+    value: price>10
+    id: pair_cbf089cb96764f8a9764a8ac2edb798e
+headers: []
+authentication: {}
+metaSortKey: -1673308131251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

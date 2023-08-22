@@ -1,0 +1,59 @@
+_id: req_27f02a205fde4b73b655774e3f27a98c
+type: Request
+parentId: fld_6c78d3a5938b48abbb0b0256eb0e6042
+modified: 1673775640489
+created: 1673775515186
+url: http://api.clerk.io/v2/product/add
+name: product/add
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3a709cbfdf5f423b8313103d523cb4ed
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_1bbe246d81d147b4bf9a61d358dd1d6e
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_178ae49d54944e5b831658a507bf4045
+    name: products
+    value: >-
+      [
+        {
+          "id": 100,
+          "name": "Green Lightsaber",
+          "description": "Antique Rebel Lightsaber",
+          "price": 99995.95,
+          "image": "https://galactic-empire-merch.com/images/a-r-lightsaber.jpg",
+          "url": "https://galactic-empire-merch.com/antique-rebel-lightsaber",
+          "brand": "Je’daii",
+          "categories": [987, 654],
+          "created_at": 1199145600
+        },
+        {
+          "id": 200,
+          "name": "Death Star Deluxe",
+          "description": "Death Star - Guaranteed idiot proof",
+          "price": 0.95,
+          "image": "https://galactic-empire-merch.com/images/death-star.jpg",
+          "url": "https://galactic-empire-merch.com/death-star",
+          "brand": "Imperial Inc.",
+          "categories": [345678],
+          "created_at": 1197565600
+        }
+      ]
+    description: ""
+    type: text
+    multiline: true
+headers: []
+authentication: {}
+metaSortKey: -1673775515186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

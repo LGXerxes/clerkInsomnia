@@ -1,0 +1,44 @@
+_id: req_b72798c839c54f5c8b5e7802c3ce4699
+type: Request
+parentId: fld_fc990a0fcec6468fa31139ee6bff8fc7
+modified: 1682684615153
+created: 1682684428106
+url: https://api.clerk.io/v2/categories
+name: categoriestest
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"key": "9aQXoGDoHoMFMDGF9IxxokXi8Qem7ZlV",
+    	"private_key": "PjhZW76Kx5cXtTaG4X9lZNFgpo9BcKXt5Z3bYVhFKk",
+    	"categories": [
+    		{"i2d": "4tfe",
+    		 "na23me": "Helmets",
+    		 "u23rl": "/",
+    		 "su23bcategories":[12, 13, 24, 25, 26, 554, 14, 27, 28, 29, 30, 31, 32, 33, 34, 555, 15, 35, 36, 37, 38, 409, 39, 41, 410, 411, 668, 150, 16, 17, 18, 830],
+    		 "parent": null,
+    		 "children": [12, 13, 14, 15, 16, 17, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 150, 409, 410, 411, 554, 555, 668, 830]}, 
+    		{"i12312d": 7,
+    		 "name": "Shoulder Pads",
+    		 "url": "/", 
+    		 "subcategories": [151, 42, 359, 43, 45, 46, 48, 49, 50, 51, 52, 53, 54, 431, 56, 57, 58, 59, 60, 61, 831],
+    		 "parent": null,
+    		 "children": [42, 43, 45, 46, 48, 49, 50, 51, 52, 53, 54, 56, 57, 58, 59, 60, 61, 151, 359, 431, 831]
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668593190534.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

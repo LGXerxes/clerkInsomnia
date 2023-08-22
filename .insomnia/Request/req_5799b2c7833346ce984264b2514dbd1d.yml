@@ -1,0 +1,35 @@
+_id: req_5799b2c7833346ce984264b2514dbd1d
+type: Request
+parentId: fld_39b86d358ca94ead87c45d3b1b4bc7a9
+modified: 1687509812923
+created: 1673308453755
+url: https://api.clerk.io/v2/customers
+name: customers
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: customers
+    value: '["123456@.com"]'
+    description: Array of emails
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: -1668618702380.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,94 @@
+_id: req_5c3b57a7f84445a688bcb1cbc87e204c
+type: Request
+parentId: fld_7ff39d314d2748209e723397c535eb96
+modified: 1687948266500
+created: 1673308453768
+url: https://api.clerk.io/v2/search/search
+name: search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b20c95d6345943c49dcab60f528e5e20
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_5643fbd7e0fd4bec9dfc6bdbc6c1f543
+    name: query
+    value: "10741"
+    description: ""
+  - id: pair_99b4be8437164575962b1e01dee4fc9b
+    name: limit
+    value: "300"
+    description: ""
+    disabled: false
+  - id: pair_61ae897cf97b4ae48df1d17c6594a13c
+    name: visitor
+    value: auto
+    description: ""
+    disabled: true
+  - id: pair_16393cf6b3344e25869a1b63960cf000
+    name: labels
+    value: '["live-search"]'
+    description: ""
+    disabled: true
+  - id: pair_a9e243d0135445bcafd8725f3f5d4f08
+    name: facets
+    value: '["index","on_sale"]'
+    description: ""
+    disabled: true
+  - id: pair_1a51d8484243418680a3af3bc4e0fc2c
+    name: longtail
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_b68faf42f6af41cfad449613b9b95c5c
+    name: offsett
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_2b7585a8d6bd4454b450b5b9e1549819
+    name: filter
+    value: on_sale =true
+    description: ""
+    disabled: true
+  - id: pair_14207795653445e7bef2805cc2b17ef8
+    name: exclude
+    value: '["261"]'
+    description: ""
+    disabled: true
+  - id: pair_baad5f2b229c47a7bafd0e65e0ab7bf2
+    name: orderby
+    value: on_sale
+    description: ""
+    disabled: true
+  - id: pair_659bc886449447109fc7e9007ff5c33f
+    name: language
+    value: english
+    description: ""
+    disabled: true
+  - id: pair_178452a1b28e468d803fab8d45a4ab53
+    name: attributes
+    value: '["index","on_sale"]'
+    description: ""
+    disabled: true
+  - id: pair_18923fe75a464e9588a69a344fc040dd
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+  - id: pair_7f340c4e947b441d8c501d82c67c13e9
+    name: order
+    value: asc
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304896399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_aa579a085e0147599514eedce4c687dd
+type: Request
+parentId: wrk_b0a6d428765f41418e13f2466cfd25f1
+modified: 1692691709340
+created: 1687786344057
+url: https://api.clerk.io/v2/client/info
+name: Get keys
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "client_key":"qq703pF7WT5j97UKetiQsygWE0g5xhv7iyUswPeXwVgw2WcZ7Ji0EIHdiu6r9hqWLAeJcQUTXCuhXypa3PSIj71GbLOUbTgFQLzvDFtyzx2Kb3h1jA72iYJYPh4Zvcbgc6kIo8V3xh87sWwnnUz7ylYv95GcOjC16eVTCSdfLup83wIgdhsgZhRGDKHuhPBMl0oBjIzK7PMI9p64jmNndQVlC19FepGsYztb2WtrTVxYOgqNYP2Qmhafh4sO0Sr"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1684882232639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

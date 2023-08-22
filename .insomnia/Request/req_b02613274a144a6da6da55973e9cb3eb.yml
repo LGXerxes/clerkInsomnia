@@ -1,0 +1,75 @@
+_id: req_b02613274a144a6da6da55973e9cb3eb
+type: Request
+parentId: fld_39b86d358ca94ead87c45d3b1b4bc7a9
+modified: 1687509902191
+created: 1673308453756
+url: https://api.clerk.io/v2/customers
+name: customers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "customers": [
+            {
+                "id": "1",
+    						"email":"1@email.com",
+    						"name":""
+            },
+    			        {
+                "id": "1",
+    						"email":"12@email.com",
+    						"name":""
+            },
+    			        {
+                "id": "1",
+    						"email":"123@email.com",
+    						"name":""
+            },
+    			        {
+                "id": "1",
+    						"email":"1234@email.com",
+    						"name":""
+            },
+    			        {
+                "id": "1",
+    						"email":"12345@email.com",
+    						"name":""
+            },
+    			        {
+                "id": "1",
+    						"email":"123456@email.com",
+    						"name":""
+            },
+    						        {
+                "id": "1",
+    						"email":"123456@.com",
+    						"name":""
+            },
+    				{
+                "id": "1",
+    						"email":"123456@3.com",
+    						"name":""
+            }
+        ]
+    }
+parameters:
+  - id: pair_bcc3579dad0641b4a956e979e468eb5f
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668618702330.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

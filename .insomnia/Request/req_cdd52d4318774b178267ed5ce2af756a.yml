@@ -1,0 +1,43 @@
+_id: req_cdd52d4318774b178267ed5ce2af756a
+type: Request
+parentId: fld_b3bca4e7439a4aac89d164238cdb04ba
+modified: 1685017512487
+created: 1673308453689
+url: "{{ _.domain }}{{ _.route }}ordere"
+name: /order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"key": "{{ _.public_key }}",
+    "private_key": "{{ _.private_key }}"}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+    id: pair_59403b049dc44416aef5712a6e38005c
+    disabled: true
+  - name: limit
+    value: "{{ _.limit }}"
+    id: pair_6220e470706a4ac3ade1ea6c09518e1c
+    disabled: true
+  - id: pair_ee788217c18c44fc8569af0c6392e9fb
+    name: page
+    value: "200"
+    description: ""
+  - id: pair_5814d0143fe6445da6a916dd6bf68c1d
+    name: limit
+    value: "100"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668167385780.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

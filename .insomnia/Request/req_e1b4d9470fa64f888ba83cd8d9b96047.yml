@@ -1,0 +1,32 @@
+_id: req_e1b4d9470fa64f888ba83cd8d9b96047
+type: Request
+parentId: fld_b3bca4e7439a4aac89d164238cdb04ba
+modified: 1684136653126
+created: 1673308453694
+url: "{{ _.domain }}{{ _.route }}getconfig"
+name: /getconfig
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"key": "{{ _.public_key }}",
+    "private_key": "{{ _.private_key }}"}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3825c783ba6b486fa43c68a9371598d9
+authentication: {}
+metaSortKey: -1668159394968.754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

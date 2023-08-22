@@ -1,0 +1,35 @@
+_id: req_8d25390ac47e436fa5c50d423049c95f
+type: Request
+parentId: fld_6c78d3a5938b48abbb0b0256eb0e6042
+modified: 1673775754522
+created: 1673775631953
+url: http://api.clerk.io/v2/product/remove
+name: product/remove
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3a709cbfdf5f423b8313103d523cb4ed
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_1bbe246d81d147b4bf9a61d358dd1d6e
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_178ae49d54944e5b831658a507bf4045
+    name: products
+    value: "[100,200]"
+    description: ""
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: -1673541823218.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,54 @@
+_id: req_d563d3bfa7654363b5251f6ab05965f9
+type: Request
+parentId: fld_f485292161cc40f1b0fcf72fdf699b72
+modified: 1683641143480
+created: 1673308453785
+url: https://api.clerk.io/v2/recommendations/most_sold_with
+name: most_sold_with
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_f2b44d3f150c40cab193dec097fff850
+  - name: products
+    value: '["153"]'
+    id: pair_462bbb929c5c437b8db7586f9cf0312a
+  - name: limit
+    value: "10"
+    id: pair_47b3dfc7e4ab447baa057081c2eb65a7
+  - name: visitor
+    value: auto
+    id: pair_91ef4330bbcb4617a1abc527aa025b2f
+    disabled: true
+  - name: labels
+    value: '["live-search"]'
+    id: pair_05ea327bd849462c8a7223682e4b24f7
+    disabled: true
+  - name: filter
+    value: price>10
+    id: pair_f51406d1cf0843d5ab8742d1ff9688dc
+    disabled: true
+  - name: exclude
+    value: '["15"]'
+    id: pair_8b0f4118a7c741ddbdd121b97c6b59f0
+    disabled: true
+  - name: attributes
+    value: '["name"]'
+    id: pair_26bf3efc8449478580d7c3e3dcaf2d00
+    disabled: false
+  - name: callback
+    value: test
+    id: pair_c516eb9096764ed6ae525b0b4f58e844
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304794035.251
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

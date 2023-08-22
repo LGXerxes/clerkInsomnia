@@ -1,0 +1,32 @@
+_id: req_60b6bf6fe512489a9290bba155cdc076
+type: Request
+parentId: fld_064d27406791457f81d29de6343f5683
+modified: 1674131044047
+created: 1673308453740
+url: "{{ _.domain }}{{ _.route
+  }}orderPbIZ7rMj0DI4VKEU1N3VVdNq5bBnUE2lPbIZ7rMj0DI4VKEU1N3VVdNq5bBnUE2lPbIZ7r\
+  Mj0DI4VKEU1N3VVdNq5bBnUE2lPbIZ7rMj0DI4VKEU1N3VVdNq5bBnUE2lPbIZ7rMj0DI4VKEU1N3\
+  VVdNq5bBnUE2"
+name: /order
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+  - name: key
+    value: "{{ _.public_key }}"
+  - name: private_key
+    value: "{{ _.private_key }}"
+headers: []
+authentication: {}
+metaSortKey: -1668163124014.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_78c363ecceca41fca2c89fe1d42419a9
+type: Request
+parentId: fld_cef10e32cf0c4ed88a12ceab5b3c4d42
+modified: 1684150734821
+created: 1673308453747
+url: https://api.clerk.io/v2/products
+name: products
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "products": [
+            {
+                "id": 125193,
+                "name":"3M - Cuffie antirumore Peltor Optime",
+                "image": "https://metalworker.com/wp-content/uploads/2021/11/Cuffie-antirumore-Peltor-Optime-Modello-1.jpg",
+                "url": "https://metalworker.com/prodotto/3m-cuffie-antirumore-peltor-optime-modello-1/"
+                
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668499646962.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
