@@ -1,7 +1,7 @@
 _id: req_b02613274a144a6da6da55973e9cb3eb
 type: Request
 parentId: fld_39b86d358ca94ead87c45d3b1b4bc7a9
-modified: 1687509902191
+modified: 1692799132770
 created: 1673308453756
 url: https://api.clerk.io/v2/customers
 name: customers
@@ -14,46 +14,15 @@ body:
         "key": "{{ _.public_key }}",
         "private_key": "{{ _.private_key }}",
         "customers": [
-            {
-                "id": "1",
-    						"email":"1@email.com",
-    						"name":""
-            },
-    			        {
-                "id": "1",
-    						"email":"12@email.com",
-    						"name":""
-            },
-    			        {
-                "id": "1",
-    						"email":"123@email.com",
-    						"name":""
-            },
-    			        {
-                "id": "1",
-    						"email":"1234@email.com",
-    						"name":""
-            },
-    			        {
-                "id": "1",
-    						"email":"12345@email.com",
-    						"name":""
-            },
-    			        {
-                "id": "1",
-    						"email":"123456@email.com",
-    						"name":""
-            },
-    						        {
-                "id": "1",
-    						"email":"123456@.com",
-    						"name":""
-            },
-    				{
-                "id": "1",
-    						"email":"123456@3.com",
-    						"name":""
-            }
+            		{
+    			"email": "lni@clerk.io",
+    			"id": "123",
+    			"name": "testing 123",
+    			"subscribed": false,
+    			"unsub_url": "https://www.duckduckgo.com",
+    			"zip": "Nfsdfdf",
+    			"customerid": ""
+    		}
         ]
     }
 parameters:

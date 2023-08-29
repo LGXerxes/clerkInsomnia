@@ -1,7 +1,7 @@
 _id: req_5799b2c7833346ce984264b2514dbd1d
 type: Request
 parentId: fld_39b86d358ca94ead87c45d3b1b4bc7a9
-modified: 1687509812923
+modified: 1692798746732
 created: 1673308453755
 url: https://api.clerk.io/v2/customers
 name: customers
@@ -19,7 +19,7 @@ parameters:
     description: ""
   - id: pair_45ebaa9473b94b2c81eb049249f2cae9
     name: customers
-    value: '["123456@.com"]'
+    value: '["33geoff.mcdonough@gmail.com"]'
     description: Array of emails
     type: text
     multiline: false
